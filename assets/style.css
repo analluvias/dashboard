@@ -1,0 +1,16 @@
+body{
+    background-color: hsla(240, 36%, 4%, 0.644);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+select{
+    color: black;
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
