@@ -1,8 +1,10 @@
 body{
-    background-color: hsla(240, 36%, 4%, 0.644);
+    margin: 0;
+    background-color: rgba(102, 102, 240, 0.671);
 }
 
 h1{
+    font-family: 'Lato',Montserrat !important;
     text-align: center;
     color: white;
 }
@@ -11,6 +13,31 @@ select{
 }
 
 .text{
-    text-align: center;
+    text-align: right;
+    padding-right: 10%;
     color: white;
+}
+
+#escolha_dados{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40%;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+}
+
+.drop{
+    width: 850px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.graph{
+    padding-top: 3px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    width: 835px;
+    height: 50%;
 }
